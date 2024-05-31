@@ -1,0 +1,10 @@
+1: Error: Failed to list Firebase projects. See firebase-debug.log for more info
+   solution 1 : run "firebase login --reauth" on your terminal and start the process again
+   solution 2 :  npm i -g firebase-tools and try again
+2: Error: Automatic card filling is disabled 
+    solution : this happen because you are not in secure connection so just put the numbers manually
+               meaning 4242 4242 4242 4242 04/24 242 42424
+3፡ firebase database error : missing or insufficient permission
+   solution : got to firebase > firestore > rules > change the "if false" code in to "if true" and publish
+
+
